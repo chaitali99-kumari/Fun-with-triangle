@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>quiz</title>
+    <link rel="stylesheet" type="text/css" href="css\bootstrap.css">
+    <link rel="stylesheet" type="text/css" href="css\bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="css\font-awesome.css">
+    <link rel="stylesheet" type="text/css" href="css\font-awesome.min.css">
+    <link rel="stylesheet"   href="style1.css">
+</head>
+<body>
+    <div class="container-fluid">
+        <div class="col-md-3"></div>
+        <div class="col-md-6  main">
+            <nav class="nav">
+                <a href="IsTriangle.html">Is Triangle? </a>
+                <a href="quizTriangle.html">Quiz </a>
+                <a href="hypotenuse.html">Hypotenuse </a>
+                <a href="AreaTriangle.html">Area </a>
+            </nav>
+            <h1>Quiz related to triangle.</h1>
+            <form class="quiz-form">
+                <p>Q1). what is the sum of all angle of triangle ?</p>
+                <label><input type="radio" name="question1" value="360°"/>360°</label>
+                <label><input type="radio" name="question1" value="260°"/>260°</label>
+                <label><input type="radio" name="question1" value="180°"/>180°</label>
+        
+                <p>Q2). In which triangle two side are equal?</p>
+                <label><input type="radio" name="question2" value="isoscles triangle"/>isoscles triangle</label>
+                <label><input type="radio" name="question2" value="scalene triangle"/>scalene triangle</label>
+                <label><input type="radio" name="question2" value="equaletral triangle"/>equaletral triangle</label>
+
+                <p>Q3). If a triangle has an angle of 90°, what is it called?</p>
+                <label><input type="radio" name="question3" value="acute"/>acute</label>
+                <label><input type="radio" name="question3" value="obtuse"/>obtuse</label>
+                <label><input type="radio" name="question3" value="right angled"/>right angled</label>
+       
+            </form>
+            <button id="submit-btn">submit</button>
+            <div id="show-score"></div>
+        </div>
+        <div class="col-md-3 "></div>
+    </div>
+    <script type="text/javascript" src="js\jquery.js"></script> 
+    <script type="text/javascript" src="js\bootstrap.js"></script>
+    <script type="text/javascript" src="js\bootstrap.min.js"></script> 
+    <script src="triangle_quiz.js"></script>
+</body>
+</html>
